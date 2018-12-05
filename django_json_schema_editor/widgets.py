@@ -17,11 +17,11 @@ class JSONSchemaEditorWidget(forms.Widget):
     def media(self):
         css = {
             'all': [
-                'django_json_schema_editor/css/vendors~main.css',
+                'django_json_schema_editor/css/1.8c99a08b.chunk.css',
             ]
         }
         js = [
-            'django_json_schema_editor/js/main.js',
-            'django_json_schema_editor/js/vendors~main.js',
+            'django_json_schema_editor/js/1.10b1885f.chunk.js',
+            'django_json_schema_editor/js/main.7fc6573d.chunk.js',
         ]
         return forms.Media(css=css, js=js)
